@@ -20,7 +20,7 @@ jar {
     archiveFileName = "myname.jar"
     destinationDirectory = file("$rootDir/")
     manifest {
-        attributes "Main-Class": "gradle.Main"
+        attributes "Main-Class": "org.example.Main"
     }
 
     from {
